@@ -63,6 +63,21 @@ main {
     padding: 1rem;
 }
 
+main a {
+    background-color: gold
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    text-transform:uppercase;
+}
+
+main a:hover {
+    background-color: #B35A3C;
+    color: white;
+}
+
+
 section {
     margin-bottom: 2rem;
 }
