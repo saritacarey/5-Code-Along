@@ -82,16 +82,10 @@ section {
     margin-bottom: 2rem;
 }
 
-.card-row {
-    display: flex;
-    gap: 1rem;
-}
-
 .card-row section {
     background-color: white;
     border: 1px solid #E5E5E5;
     padding: 1rem;
-    width: 30%;
 }
 
 img {
@@ -111,4 +105,19 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+/* ===== MEDIA QUERIES (MEDIUM ===== */
+@media screen and (max-width: 817px) {
+    nav ul {
+        display: flex;
+        justify-content:center;
+        gap: 1rem;
+    }
+    .card-row {
+        display: flex;
+        gap: 1rem;
+    }
+    .card-row section {
+        width: 30%;
+    }
 }
