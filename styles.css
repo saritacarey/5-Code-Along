@@ -64,7 +64,7 @@ main {
 }
 
 main a {
-    background-color: gold
+    background-color: gold;
     color: white;
     text-decoration: none;
     padding: 0.5rem;
